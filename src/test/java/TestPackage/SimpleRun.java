@@ -24,6 +24,7 @@ public class SimpleRun {
     @Test
     public void Startup() throws IOException {
         driver.get("https://www.google.com/");
+        System.out.println("this is simple class");
 
     }
 
